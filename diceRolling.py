@@ -23,7 +23,7 @@ def dice():
     playerDice = random.choice(Nums)
     computerDice = random.choice(Nums)
 
-    time.sleep(1)   # Time for dice to hit the ground XP
+    time.sleep(1)   # Time for the dice to hit the ground XP
 
     # Display Player's Dice Number
     playerResult.delete(0, END)
